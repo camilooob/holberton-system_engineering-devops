@@ -1,13 +1,2 @@
 #!/bin/bash
-try try 0x002
-try
-try try
-try
-trytrytry try
-wretyuioutrewq
-qwertyutrewqtyui
-wetryrutiyryetweytrui
-100-empty_casks
-100-empty_casks
-100-empty_casks
-100-empty_casks 
+find . -empty | rev | cut --delimiter='/' -f1 | rev
