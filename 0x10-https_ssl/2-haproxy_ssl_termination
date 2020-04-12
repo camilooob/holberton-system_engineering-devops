@@ -44,7 +44,7 @@ frontend www-http
         default_backend nodes
 
 frontend www-https
-        bind *:443 ssl crt /etc/haproxy/certs/www.angelpedroza.tech.pem
+        bind *:443 ssl crt /etc/haproxy/certs/www.crono.tech.pem
         reqadd X-Forwarded-Proto:\ https
         default_backend nodes
 
