@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Save data in JSON format""
+"""Fetch data from an API"""
 import json
 import requests
 from sys import argv
